@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/home"/>
+
+
+        <item
+            android:id="@+id/nav_crops"
+            android:title="Crops"
+            android:icon="@drawable/plant"/>
+
+        <item
+            android:id="@+id/nav_disease"
+            android:title="Disease"
+            android:icon="@drawable/disease"/>
+
+        <item
+            android:id="@+id/nav_earn"
+            android:title="Earn"
+            android:icon="@drawable/dollar"/>
+
+        <item
+            android:id="@+id/nav_market"
+            android:title="Market Price"
+            android:icon="@drawable/market"/>
+
+
+
+    </group>
+
+    <item android:title="Profile">
+        <menu>
+
+            <group android:checkableBehavior="single">
+
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:title="User"
+                    android:icon="@drawable/user"/>
+
+
+                <item
+                    android:id="@+id/nav_logout"
+                    android:title="Log Out"
+                    android:icon="@drawable/logout"/>
+
+            </group>
+        </menu>
+    </item>
+
+
+
+</menu>
