@@ -4,35 +4,40 @@
     <group android:checkableBehavior="single">
         <item
             android:id="@+id/nav_home"
-            android:title="Home"
+            android:title="@string/home"
             android:icon="@drawable/home"/>
 
 
         <item
             android:id="@+id/nav_crops"
-            android:title="Crops"
+            android:title="@string/crops"
             android:icon="@drawable/plant"/>
 
         <item
             android:id="@+id/nav_disease"
-            android:title="Disease"
+            android:title="@string/disease"
             android:icon="@drawable/disease"/>
 
         <item
             android:id="@+id/nav_earn"
-            android:title="Earn"
+            android:title="@string/earning"
             android:icon="@drawable/dollar"/>
 
         <item
             android:id="@+id/nav_market"
-            android:title="Market Price"
+            android:title="@string/market_price"
             android:icon="@drawable/market"/>
+
+        <item
+            android:id="@+id/nav_district"
+            android:title="@string/dnc"
+            android:icon="@drawable/district"/>
 
 
 
     </group>
 
-    <item android:title="Profile">
+    <item android:title="@string/profile">
         <menu>
 
             <group android:checkableBehavior="single">
@@ -40,13 +45,13 @@
 
                 <item
                     android:id="@+id/nav_profile"
-                    android:title="User"
+                    android:title="@string/user"
                     android:icon="@drawable/user"/>
 
 
                 <item
                     android:id="@+id/nav_logout"
-                    android:title="Log Out"
+                    android:title="@string/logout"
                     android:icon="@drawable/logout"/>
 
             </group>

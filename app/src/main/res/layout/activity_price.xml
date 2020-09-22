@@ -14,7 +14,8 @@
         android:background="#fff"
         android:layout_gravity="start"
         app:headerLayout="@layout/header"
-        app:menu="@menu/main_menu"/>
+        app:menu="@menu/main_menu"
+        android:theme="@style/navigationTheme"/>
 
 
 
@@ -36,16 +37,18 @@
             android:layout_width="30dp"
             android:layout_height="30dp"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="5dp"
-            android:src="@drawable/nicon" />
+            android:layout_marginStart="5dp"
+            android:src="@drawable/nicon"
+            android:contentDescription="@string/todo" />
 
         <ImageView
             android:layout_width="30dp"
             android:layout_height="30dp"
-            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
             android:layout_centerVertical="true"
-            android:layout_marginLeft="5dp"
-            android:src="@drawable/home" />
+            android:layout_marginStart="5dp"
+            android:src="@drawable/home"
+            android:contentDescription="@string/todo" />
 
     </RelativeLayout> //Upper Icons
 
@@ -60,39 +63,10 @@
             android:layout_height="wrap_content"
             android:layout_centerHorizontal="true"
             android:fontFamily="@font/krona_one"
-            android:text="TODAY MARKET PRICES (1Kg)"
+            android:text="@string/market_price"
             android:textAlignment="center"
             android:textColor="#1b4a40"
             android:textSize="20sp" />
-
-        <RelativeLayout
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:layout_below="@id/app_name"
-            android:layout_marginTop="10dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginBottom="10dp"
-
-            android:background="#C3ECDD"
-            android:elevation="10dp">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:layout_marginLeft="15dp"
-                android:text="Search.." />
-
-            <ImageView
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginRight="15dp"
-                android:src="@drawable/search" />
-
-
-        </RelativeLayout>
 
     </RelativeLayout> //search
 
@@ -105,7 +79,7 @@
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp"
             android:orientation="vertical">
 
             <RelativeLayout
@@ -117,7 +91,8 @@
                 <ImageView
                     android:layout_width="70dp"
                     android:layout_height="70dp"
-                    android:src="@drawable/vegetable" />
+                    android:src="@drawable/vegetable"
+                    android:contentDescription="@string/todo" />
 
             </RelativeLayout>
 
@@ -125,7 +100,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/allerta"
-                android:text="Vegetable"
+                android:text="@string/vege"
                 android:textAlignment="center"
                 android:textSize="13sp" />
 
@@ -147,7 +122,8 @@
                     android:layout_width="150dp"
                     android:layout_height="150dp"
                     android:layout_centerInParent="true"
-                    android:src="@drawable/fruit" />
+                    android:src="@drawable/fruit"
+                    android:contentDescription="TODO" />
 
             </RelativeLayout>
 
@@ -155,7 +131,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/allerta"
-                android:text="Fruits"
+                android:text="@string/fruit"
                 android:textAlignment="center"
                 android:textSize="13sp" />
 
@@ -176,7 +152,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp">
+        android:layout_marginStart="20dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -199,17 +175,18 @@
                     android:layout_height="120dp"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/vegone" />
+                    android:src="@drawable/vegone"
+                    android:contentDescription="TODO" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:text="Vegetable #"
+                    android:text="@string/vege_tag"
                     android:textAllCaps="true"
                     android:textColor="#fff"
-                    android:textSize="23dp"
+                    android:textSize="23sp"
                     android:textStyle="bold" />
 
 
@@ -221,9 +198,9 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="5dp"
 
-                    android:text="Price:Rs."
+                    android:text="@string/rs"
                     android:textColor="#fff"
-                    android:textSize="18dp" />
+                    android:textSize="18sp" />
 
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -237,7 +214,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="text"
                         android:textColor="#fff"
-                        android:textSize="25dp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -285,21 +262,20 @@
                     android:text="Vegetable #"
                     android:textAllCaps="true"
                     android:textColor="#fff"
-                    android:textSize="23dp"
+                    android:textSize="23sp"
                     android:textStyle="bold" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="5dp"
 
                     android:text="Price:Rs."
                     android:textColor="#fff"
-                    android:textSize="18dp" />
+                    android:textSize="18sp" />
 
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -313,7 +289,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="text"
                         android:textColor="#fff"
-                        android:textSize="25dp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -326,7 +302,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="10dp"
                     android:background="#85bca9"
-                    android:text="Your Earn"
+                    android:text="@string/earn"
                     android:textAlignment="center"
                     android:textColor="#000000" />
 
@@ -343,7 +319,7 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="20dp">
+        android:layout_marginStart="20dp">
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -364,33 +340,33 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/vegone" />
+                    android:src="@drawable/vegone"
+                    android:contentDescription="@string/todo" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:text="Vegetable #"
+                    android:text="@string/vege_tag"
                     android:textAllCaps="true"
                     android:textColor="#fff"
-                    android:textSize="23dp"
+                    android:textSize="23sp"
                     android:textStyle="bold" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_centerVertical="true"
                     android:layout_marginStart="5dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="5dp"
 
-                    android:text="Price:Rs."
+                    android:text="@string/rs"
                     android:textColor="#fff"
-                    android:textSize="18dp" />
+                    android:textSize="18sp" />
 
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -404,7 +380,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="text"
                         android:textColor="#fff"
-                        android:textSize="25dp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -417,7 +393,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="10dp"
                     android:background="#85bca9"
-                    android:text="Your Earn"
+                    android:text="@string/earn"
                     android:textAlignment="center"
                     android:textColor="#000000" />
 
@@ -438,19 +414,20 @@
                 <ImageView
                     android:layout_width="120dp"
                     android:layout_height="120dp"
-                    android:layout_marginLeft="25dp"
+                    android:layout_marginStart="25dp"
                     android:layout_marginTop="8dp"
-                    android:src="@drawable/vegone" />
+                    android:src="@drawable/vegone"
+                    android:contentDescription="TODO" />
 
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_margin="5dp"
-                    android:text="Vegetable #"
+                    android:text="@string/vege_tag"
                     android:textAllCaps="true"
                     android:textColor="#fff"
-                    android:textSize="23dp"
+                    android:textSize="23sp"
                     android:textStyle="bold" />
 
 
@@ -462,9 +439,9 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginEnd="5dp"
 
-                    android:text="Price:Rs."
+                    android:text="@string/rs"
                     android:textColor="#fff"
-                    android:textSize="18dp" />
+                    android:textSize="18sp" />
 
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -478,7 +455,7 @@
                         android:layout_height="wrap_content"
                         android:inputType="text"
                         android:textColor="#fff"
-                        android:textSize="25dp"
+                        android:textSize="25sp"
                         android:textStyle="bold" />
                 </com.google.android.material.textfield.TextInputLayout>
 
@@ -491,7 +468,7 @@
                     android:layout_marginRight="20dp"
                     android:layout_marginBottom="10dp"
                     android:background="#85bca9"
-                    android:text="Your Earn"
+                    android:text="@string/earn"
                     android:textAlignment="center"
                     android:textColor="#000000" />
 

@@ -1,3 +1,66 @@
 <resources>
     <string name="app_name">splash</string>
+    <string name="agriculture">AGRICULTURE FROM ANDROID</string>
+    <string name="agroid">AGROID</string>
+    <string name="welcome">WELCOME</string>
+    <string name="signin">Sign In to Continue</string>
+    <string name="email">Email</string>
+    <string name="pwd">Password</string>
+    <string name="login">Login</string>
+    <string name="new_user">New User? SIGN UP</string>
+    <string name="lets">Lets get Start to Planting</string>
+    <string name="full_name">Full Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="tp">Telephone Number (07********)</string>
+    <string name="district">District</string>
+    <string name="signup">Sign Up</string>
+    <string name="already_user">Already have an Account?Login</string>
+    <string name="market_price">TODAY MARKET PRICES (1Kg)</string>
+    <string name="search">Search</string>
+    <string name="vege">Vegetable</string>
+    <string name="fruit">Fruits</string>
+    <string name="vege_tag">Vegetable #</string>
+    <string name="rs">Price:Rs.</string>
+    <string name="earn">Your Earn</string>
+    <string name="crop">District and Crops</string>
+    <string name="todo">TODO</string>
+    <string name="Add">Add</string>
+    <string name="home">Home</string>
+    <string name="crops">Crops</string>
+    <string name="disease">Disease</string>
+    <string name="earning">Earn</string>
+    <string name="market_Price">Market Price</string>
+    <string name="dnc">District and Crops</string>
+    <string name="user">User</string>
+    <string name="logout">Logout</string>
+    <string name="profile">Profile</string>
+
+    <string-array name='district'>
+        <item>Jaffna</item>
+        <item>Kilinochchi</item>
+        <item>Mannar</item>
+        <item>Mullaitivu</item>
+        <item>Vavuniya</item>
+        <item>Puttalam</item>
+        <item>Kurunegala</item>
+        <item>Gampaha</item>
+        <item>Colombo</item>
+        <item>Kalutara</item>
+        <item>Anuradhapura</item>
+        <item>Polonnaruwa</item>
+        <item>Matale</item>
+        <item>Kandy</item>
+        <item>Nuwara Eliya</item>
+        <item>Kegalle</item>
+        <item>Ratnapura</item>
+        <item>Trincomalee</item>
+        <item>Batticaloa</item>
+        <item>Ampara</item>
+        <item>Badulla</item>
+        <item>Monaragala</item>
+        <item>Hambantota</item>
+        <item>Matara</item>
+        <item>Galle</item>
+    </string-array>
+
 </resources>

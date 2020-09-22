@@ -29,7 +29,7 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:fontFamily="@font/allerta"
-        android:text="AGRICULTURE FROM ANDROID"
+        android:text="@string/agriculture"
         android:textAlignment="center"
         android:textColor="#878888"
         android:textSize="20sp"

@@ -9,4 +9,11 @@
 
     </style>
 
+    <style name="navigationTheme">
+        <!--color of text/icon selected-->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <!--background color selected-->
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
 </resources>

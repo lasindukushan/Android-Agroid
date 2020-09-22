@@ -10,7 +10,7 @@
         android:id="@+id/menu_slogan"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AGRICULTURE FROM ANDROID"
+        android:text="@string/agriculture"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="10dp"
         />
@@ -19,11 +19,11 @@
         android:id="@id/app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="AGROID"
-        android:fontFamily="@font/krona_one"
-        android:textSize="24dp"
         android:layout_above="@id/menu_slogan"
-        android:textColor="#1B4A40"/>
+        android:fontFamily="@font/krona_one"
+        android:text="@string/agroid"
+        android:textColor="#1B4A40"
+        android:textSize="24sp" />
 
     <ImageView
         android:layout_width="40dp"
