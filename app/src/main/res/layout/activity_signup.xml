@@ -17,15 +17,16 @@
         android:layout_marginLeft="100dp"
         android:layout_marginTop="15dp"
         android:layout_marginRight="100dp"
-        android:src="@drawable/agroid" />
+        android:src="@drawable/agroid"
+        android:contentDescription="@string/todo" />
 
     <TextView
         android:id="@+id/welcome_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
+        android:layout_marginStart="5dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/krona_one"
         android:text="@string/lets"
         android:textAlignment="center"
@@ -110,7 +111,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/district"
+            android:id="@+id/marketbtn"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

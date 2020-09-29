@@ -86,7 +86,7 @@
             android:layout_marginBottom="10dp"
             android:background="#1B4A40"
             android:text="@string/login"
-            android:id="@+id/price_screen"
+            android:id="@+id/adminlogin"
             android:textAlignment="center"
             android:textColor="#fff" />
 
@@ -103,9 +103,19 @@
             android:text="@string/new_user"
             android:textColor="#1B4A40" />
 
+        <ImageButton
+            android:id="@+id/admin"
+            android:layout_width="42dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:backgroundTint="@color/cardview_shadow_end_color"
+            app:srcCompat="?android:attr/textSelectHandleLeft" />
+
 
 
     </LinearLayout>
+
+
 
 
 </LinearLayout>

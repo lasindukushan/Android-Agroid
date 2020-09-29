@@ -15,7 +15,7 @@
     <string name="district">District</string>
     <string name="signup">Sign Up</string>
     <string name="already_user">Already have an Account?Login</string>
-    <string name="market_price">TODAY MARKET PRICES (1Kg)</string>
+    <string name="market_price">AVERAGE MARKET PRICES (1Kg)</string>
     <string name="search">Search</string>
     <string name="vege">Vegetable</string>
     <string name="fruit">Fruits</string>
@@ -34,6 +34,22 @@
     <string name="user">User</string>
     <string name="logout">Logout</string>
     <string name="profile">Profile</string>
+    <string name="check_your_earn_here">CHECK YOUR EARN HERE</string>
+    <string name="killo">Enter the Quantity in Killo</string>
+    <string name="rupees">Rs.</string>
+    <string name="calculate">Calculate</string>
+    <string name="schedule">Planting Schedule</string>
+    <string name="admin_home">Admin Home</string>
+    <string name="datainsert">Data inserted Successfully</string>
+    <string name="name">Name</string>
+    <string name="price">Price</string>
+    <string name="your_earn">Your Earn</string>
+    <string name="_100">100</string>
+    <string name="enter_your_district_here">Enter Your District Here</string>
+    <string name="suitable">Suitable Crop for Grow</string>
+    <string name="username">User Name</string>
+    <string name="incorrect_attemps">Incorrect Attemps:</string>
+
 
     <string-array name='district'>
         <item>Jaffna</item>

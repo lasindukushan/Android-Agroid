@@ -7,12 +7,15 @@ import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class login extends AppCompatActivity {
 
     Button callsignup;
     //********************************
     Button callprice;
+
+    ImageButton Admin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +38,7 @@ public class login extends AppCompatActivity {
         });
 
         //*******************************************************************************************
-        callprice = findViewById(R.id.price_screen);
+        callprice = findViewById(R.id.adminlogin);
 
         callprice.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,5 +49,15 @@ public class login extends AppCompatActivity {
         });
 
         //*******************************************************************************************
+
+        Admin = findViewById(R.id.admin);
+
+        Admin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent1 = new Intent(login.this, admin_login.class);
+                startActivity(intent1);
+            }
+        });
     }
 }

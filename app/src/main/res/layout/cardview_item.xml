@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cardview_id"
+    android:layout_width="120dp"
+    android:clickable="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:layout_height="190dp"
+    xmlns:cardView="http://schemas.android.com/tools"
+    android:layout_margin="5dp"
+    cardView:cardCornerRadius="4dp"
+    android:focusable="true">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent">
+
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginStart="0dp"
+            android:background="#FFFFFF"
+            android:contentDescription="@string/todo"
+            android:scaleType="centerCrop" />
+
+
+        <TextView
+            android:id="@+id/vege"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/vege_tag"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            cardView:text="@string/vege_tag"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/rs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="2dp"
+            android:fontFamily="@font/krona_one"
+            android:text="@string/_100"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+
+       <!-- <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+        </com.google.android.material.textfield.TextInputLayout>-->
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
