@@ -79,4 +79,33 @@
         <item>Galle</item>
     </string-array>
 
+
+    <string name="admintext1"><b>AGROID</b></string>
+    <string name="admintext2"><b>Add New Plant Shedule</b></string>
+    <string name="admintext3">Plant Name</string>
+    <string name="admintext5">Plant ID</string>
+    <string name="admintext6">Plant Description</string>
+    <string name="add_button">ADD</string>
+    <string name="delete_button">DELETE</string>
+    <string name="Added_button">Done</string>
+    <string name="admintext7"><b>Delete Plant Shedule</b></string>
+    <string name="admintext8"><b>Plant ID</b></string>
+    <string name="admintext9"><b>Plant Name</b></string>
+    <string name="admintext10"><b>Plant Description</b></string>
+    <string name="admintext11"><b>Plant Sheduling </b></string>
+    <string name="admin_b1"><b>CROPS</b></string>
+    <string name="admin_b2"><b>PLANTING SHEDULE</b></string>
+    <string name="admin_b3"><b>DISEASES</b></string>
+    <string name="admin_t12"><b>CROPS</b></string>
+    <string name="admin_t14"><b>PLANTING</b></string>
+    <string name="admin_t15"><b>DISEASES</b></string>
+    <string name="Update">UPDATE</string>
+    <string name="Del_btn">DELETE</string>
+    <string name="admintext16">UPDATE PLANTING SHEDULE</string>
+    <string name="id">Enter Plant ID</string>
+    <string name="namen">Enter Plant Name</string>
+    <string name="shedule">Enter Plant Shedule</string>
+    <string name="retrieve">show</string>
+    <string name="url">Image-URL</string>
+
 </resources>
