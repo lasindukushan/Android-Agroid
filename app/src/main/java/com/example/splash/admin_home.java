@@ -12,6 +12,7 @@ public class admin_home extends AppCompatActivity {
 
     Button districtadd;
     Button marketadd;
+    Button plantsh;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -20,6 +21,8 @@ public class admin_home extends AppCompatActivity {
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN );
 
         districtadd = findViewById(R.id.districtbtn);
+        marketadd = findViewById(R.id.marketbtn);
+        plantsh = findViewById(R.id.plant);
 
         districtadd.setOnClickListener(new View.OnClickListener()
         {
@@ -31,8 +34,6 @@ public class admin_home extends AppCompatActivity {
             }
         });
 
-        marketadd = findViewById(R.id.marketbtn);
-
         marketadd.setOnClickListener(new View.OnClickListener()
         {
             @Override
@@ -40,6 +41,14 @@ public class admin_home extends AppCompatActivity {
                 Intent intent = new Intent(admin_home.this,market_admin.class);
                 startActivity(intent);
 
+            }
+        });
+
+        plantsh.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(admin_home.this,PSheduleMain.class);
+                startActivity(intent);
             }
         });
     }
