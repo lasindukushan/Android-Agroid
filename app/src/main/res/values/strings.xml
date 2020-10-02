@@ -79,6 +79,7 @@
         <item>Galle</item>
     </string-array>
 
+
     <string name="admintext1"><b>AGROID</b></string>
     <string name="admintext2"><b>Add New Plant Shedule</b></string>
     <string name="admintext3">Plant Name</string>
@@ -106,12 +107,6 @@
     <string name="shedule">Enter Plant Shedule</string>
     <string name="retrieve">show</string>
     <string name="url">Image-URL</string>
-    <string name="btn_next">Next</string>
-    <string name="title">PLANTING SHEDULES</string>
-    <string name="Plantingdate">Planting date</string>
-    <string name="cal">Pick harvesting date</string>
-    <string name="select">select planting date</string>
-
     <string name="dash">Agroid</string>
     <string name="cropDash">Crops</string>
     <string name="dis1">Common</string>
