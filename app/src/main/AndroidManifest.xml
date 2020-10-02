@@ -9,7 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<activity android:name=".IndividualCrop"></activity>
         <activity android:name=".Dashboard"></activity>
+
+        <activity android:name=".FindDay"></activity>
+        <activity android:name=".Plantshedule_u" />
+        <activity android:name=".Dashboard" />
+<activity android:name=".CropDetails" />
+        <activity android:name=".Dashboard" />
         <activity android:name=".DoChanges" />
         <activity android:name=".PSheduleMain" />
         <activity android:name=".market_admin" />
