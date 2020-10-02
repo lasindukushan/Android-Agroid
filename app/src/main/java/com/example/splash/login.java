@@ -13,8 +13,8 @@ public class login extends AppCompatActivity {
 
     Button callsignup;
     //********************************
-    Button callprice;
-
+    //Button callprice;
+    Button dashb;
     ImageButton Admin;
 
     @Override
@@ -37,8 +37,20 @@ public class login extends AppCompatActivity {
             }
         });
 
+        //go dashboard
+
+        dashb = findViewById(R.id.adminlogin);
+
+        dashb.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(login.this,Dashboard.class);
+                startActivity(intent);
+            }
+        });
+
         //*******************************************************************************************
-        callprice = findViewById(R.id.adminlogin);
+        /*callprice = findViewById(R.id.adminlogin);
 
         callprice.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -46,7 +58,7 @@ public class login extends AppCompatActivity {
                 Intent intent = new Intent(login.this, price.class);
                 startActivity(intent);
             }
-        });
+        });*/
 
         //*******************************************************************************************
 
