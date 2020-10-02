@@ -29,7 +29,7 @@
         android:layout_height="83dp"
         android:layout_marginStart="4dp"
         android:backgroundTint="#C3E8C3"
-        android:text="@string/select"
+        android:text="@string/selectdate"
         android:textAlignment="center"
         android:textSize="18dp"
         app:layout_constraintBottom_toBottomOf="parent"
