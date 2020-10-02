@@ -119,4 +119,10 @@
     <string name="txtPlant">Planting</string>
     <string name="txtSchedule">Schedule</string>
     <string name="txtSch">Schedule</string>
+    <string name="selectdate">Plant Date</string>
+    <string name="btn_next">Next</string>
+    <string name="title">PLANTING SHEDULES</string>
+    <string name="Plantingdate">Planting date</string>
+    <string name="ccharvest">Pick harvesting date</string>
+
 </resources>
