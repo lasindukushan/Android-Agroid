@@ -49,6 +49,18 @@
     <string name="suitable">Suitable Crop for Grow</string>
     <string name="username">User Name</string>
     <string name="incorrect_attemps">Incorrect Attemps:</string>
+    <string name="dash">Agroid</string>
+    <string name="cropDash">Crops</string>
+    <string name="dis1">Common</string>
+    <string name="dis2">Diseases</string>
+    <string name="p1Dash">Price of</string>
+    <string name="p2Dash">Vegetables</string>
+    <string name="p3Dash">and Fruits</string>
+    <string name="btnAddCrop">Insert</string>
+    <string name="cropDis">DISPLAY</string>
+    <string name="txtPlant">Planting</string>
+    <string name="txtSchedule">Schedule</string>
+    <string name="txtSch">Schedule</string>
 
 
     <string-array name='district'>
