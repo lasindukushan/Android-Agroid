@@ -15,14 +15,14 @@
         android:ems="10"
         android:hint="@string/id"
         android:inputType="textPersonName"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.449" />
+        app:layout_constraintVertical_bias="0.449"
+        android:autofillHints="" />
 
     <ImageView
         android:id="@+id/imageView16"
@@ -34,15 +34,17 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.176"
-        app:srcCompat="@drawable/aboutus" />
+        app:srcCompat="@drawable/aboutus"
+        android:contentDescription="@string/todo" />
 
     <Button
         android:id="@+id/btnshow"
         android:layout_width="267dp"
         android:layout_height="68dp"
         android:background="@drawable/admindashbuttons"
-        android:backgroundTint="#ACCCAC"
+        android:backgroundTint="#1B4A40"
         android:text="@string/retrieve"
+        android:textColor="#fff"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -57,8 +59,9 @@
         android:layout_height="68dp"
         android:layout_marginTop="8dp"
         android:background="@drawable/admindashbuttons"
-        android:backgroundTint="#ACCCAC"
+        android:backgroundTint="#1B4A40"
         android:text="@string/add_button"
+        android:textColor="#fff"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +73,7 @@
         android:id="@+id/textView"
         android:layout_width="203dp"
         android:layout_height="63dp"
-        android:fontFamily="sans-serif-condensed"
+        android:fontFamily="@font/krona_one"
         android:text="@string/admintext1"
         android:textAlignment="center"
         android:textSize="30sp"
