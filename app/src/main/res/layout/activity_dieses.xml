@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_layout"
+    tools:context=".dieses">
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navigation_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="#fff"
+        android:theme="@style/navigationTheme"
+        app:headerLayout="@layout/header"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/main_menu" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/coco"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/menuIcon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/nicon"
+                android:contentDescription="@string/todo" />
+
+            <ImageView
+                android:id="@+id/btn_hom1"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="5dp"
+                android:src="@drawable/home"
+                android:contentDescription="@string/todo" />
+
+        </RelativeLayout> //Upper Icons
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F8F8F8">
+
+            <TextView
+                android:id="@+id/app_named"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/krona_one"
+                android:text="Commen Dieses"
+                android:textAlignment="center"
+                android:textColor="#1b4a40"
+                android:textSize="20sp" />
+
+        </RelativeLayout> //search
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="10dp"
+                android:orientation="vertical">
+
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+
+                <LinearLayout
+
+                    android:layout_width="382dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="-35dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/card_5"
+
+                    android:elevation="8dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="50dp"
+                        android:elevation="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:src="@drawable/pq" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="223dp"
+                        android:layout_height="67dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="-150dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/card1Description"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/btn_h1xx"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="270dp"
+                        android:layout_marginBottom="100dp"
+                        android:background="@drawable/pngwave" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:layout_width="382dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="-35dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/card_5"
+
+                    android:elevation="8dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="50dp"
+                        android:elevation="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:src="@drawable/pq" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="223dp"
+                        android:layout_height="67dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="-150dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/card2Description"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/btn_h2x"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="270dp"
+                        android:layout_marginBottom="100dp"
+                        android:background="@drawable/pngwave" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+
+                    android:layout_width="382dp"
+                    android:layout_height="200dp"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="-35dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/card_5"
+
+                    android:elevation="8dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:layout_marginTop="50dp"
+                        android:layout_marginBottom="50dp"
+                        android:elevation="8dp">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginBottom="0dp"
+                            android:src="@drawable/pq" />
+
+
+                    </RelativeLayout>
+
+                    <TextView
+                        android:layout_width="223dp"
+                        android:layout_height="67dp"
+                        android:layout_marginLeft="100dp"
+                        android:layout_marginTop="-150dp"
+
+                        android:layout_marginBottom="5dp"
+                        android:fontFamily="sans-serif-smallcaps"
+                        android:text="@string/card3Description"
+                        android:textAlignment="center"
+                        android:textColor="#FFFFFF"
+                        android:textSize="30sp" />
+
+                    <Button
+                        android:id="@+id/btn_h3"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:layout_marginLeft="270dp"
+                        android:layout_marginBottom="100dp"
+                        android:background="@drawable/pngwave" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <!--            <Button-->
+            <!--                android:id="@+id/btn_a1"-->
+            <!--                android:layout_width="68dp"-->
+            <!--                android:layout_height="34dp"-->
+            <!--                android:text="@string/t16"-->
+            <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+            <!--                app:layout_constraintTop_toTopOf="parent"-->
+            <!--                tools:ignore="MissingConstraints" />-->
+        </ScrollView>
+
+
+
+
+
+    </LinearLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

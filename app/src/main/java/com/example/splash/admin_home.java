@@ -14,6 +14,7 @@ public class admin_home extends AppCompatActivity {
     Button marketadd;
     Button plantsh;
     Button cropAdmin;
+    Button diseasadd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class admin_home extends AppCompatActivity {
         marketadd = findViewById(R.id.marketbtn);
         plantsh = findViewById(R.id.plant);
         cropAdmin = findViewById(R.id.crop);
+        diseasadd=findViewById(R.id.button7);
 
         districtadd.setOnClickListener(new View.OnClickListener()
         {
@@ -62,6 +64,15 @@ public class admin_home extends AppCompatActivity {
             }
         });
 
+        diseasadd.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(admin_home.this,diseaseadmin.class);
+                startActivity(intent);
+
+            }
+        });
 
     }
 

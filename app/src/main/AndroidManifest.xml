@@ -9,7 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UpdateDeleteCrops"/>
+        <activity android:name=".card5details"></activity>
+        <activity android:name=".card4details" />
+        <activity android:name=".card3details" />
+        <activity android:name=".card2details" />
+        <activity android:name=".dieses" />
+        <activity android:name=".card1details" />
+        <activity android:name=".updatedieseform" />
+        <activity android:name=".add_deises" />
+        <activity android:name=".diseaseadmin" />
+        <activity android:name=".UpdateDeleteCrops" />
         <activity android:name=".DisplayCropToAdmin" />
         <activity android:name=".AddCrop" />
         <activity android:name=".IndividualCrop" />
