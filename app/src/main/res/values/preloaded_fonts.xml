@@ -6,8 +6,13 @@
         <item>@font/archivo_black</item>
         <item>@font/arimo</item>
         <item>@font/asap_medium</item>
+        <item>@font/bubblegum_sans</item>
         <item>@font/candal</item>
         <item>@font/keania_one</item>
+        <item>@font/open_sans_bold</item>
+        <item>@font/open_sans_condensed_bold</item>
         <item>@font/open_sans_extrabold</item>
+        <item>@font/open_sans_light</item>
+        <item>@font/open_sans_semibold</item>
     </array>
 </resources>

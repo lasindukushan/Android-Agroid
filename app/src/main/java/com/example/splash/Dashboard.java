@@ -27,12 +27,25 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
 
     ImageView pltshedule;
 
+    //crops
+    ImageView myImageCrop;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setContentView(R.layout.activity_dashboard);
 
+        myImageCrop = findViewById(R.id.imgCrop);
+
+        //moving to the crop details page
+        myImageCrop.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(Dashboard.this , CropDetails.class);
+                startActivity(intent);
+            }
+        });
 
 
         pltshedule = findViewById(R.id.imgPlantingSchedule);// get the relevant imageview id
