@@ -44,7 +44,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.ViewHo
         holder.next.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(view.getContext(), FindDay.class);
+                Intent i = new Intent(view.getContext(), PesticideCal.class);
                 view.getContext().startActivity(i);
             }
         });
