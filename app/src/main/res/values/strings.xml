@@ -124,5 +124,11 @@
     <string name="title">PLANTING SHEDULES</string>
     <string name="Plantingdate">Planting date</string>
     <string name="ccharvest">Pick harvesting date</string>
+    <string name="crop_id">Crop ID</string>
+    <string name="display">Display</string>
+    <string name="enter_the_id_of_the_crop_to_be_displayed">Enter The ID of the Crop to be Displayed</string>
+    <string name="add_crop_details">Add Crop Details</string>
+    <string name="crop_name">Crop Name :</string>
+    <string name="change_crop_details">Change Crop Details</string>
 
 </resources>

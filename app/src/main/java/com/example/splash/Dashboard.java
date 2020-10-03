@@ -26,6 +26,7 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
     ImageView menuicon;
 
     ImageView pltshedule;
+    ImageView pricetag;
 
     //crops
     ImageView myImageCrop;
@@ -42,8 +43,8 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
         myImageCrop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(Dashboard.this , CropDetails.class);
-                startActivity(intent);
+                Intent intent3 = new Intent(Dashboard.this , CropDetails.class);
+                startActivity(intent3);
             }
         });
 
@@ -58,6 +59,15 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
 
             }
 
+        });
+
+        pricetag = findViewById(R.id.imgPrice);
+        pricetag.setOnClickListener(new View.OnClickListener() {//set on click listner for the taken id
+            @Override
+            public void onClick(View view) {
+                Intent p = new Intent(Dashboard.this,price.class);
+                startActivity(p);
+            }
         });
 
         menuIcon = findViewById(R.id.menuIcon);

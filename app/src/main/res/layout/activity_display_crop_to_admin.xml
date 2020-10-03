@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="143dp"
             android:fontFamily="@font/open_sans_bold"
-            android:text="Enter The ID of the Crop to be displayed"
+            android:text="@string/enter_the_id_of_the_crop_to_be_displayed"
             android:textAlignment="center"
             android:textColor="#1B4A40"
             android:textSize="24sp"
@@ -48,36 +48,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
-        <ImageView
-            android:id="@+id/imgHome"
-            android:layout_width="40dp"
-            android:layout_height="0dp"
-            android:layout_marginStart="420dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="17dp"
-            android:layout_marginBottom="11dp"
-            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-            app:layout_constraintEnd_toEndOf="@+id/toolbar"
-            app:layout_constraintHorizontal_bias="0.876"
-            app:layout_constraintStart_toStartOf="@+id/toolbar"
-            app:layout_constraintTop_toTopOf="@+id/toolbar"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/home" />
-
-        <ImageView
-            android:id="@+id/imgNav"
-            android:layout_width="40dp"
-            android:layout_height="0dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="11dp"
-            app:layout_constraintBottom_toBottomOf="@+id/toolbar"
-            app:layout_constraintEnd_toEndOf="@+id/toolbar"
-            app:layout_constraintHorizontal_bias="0.054"
-            app:layout_constraintStart_toStartOf="@+id/toolbar"
-            app:layout_constraintTop_toTopOf="@+id/toolbar"
-            app:layout_constraintVertical_bias="0.0"
-            app:srcCompat="@drawable/nicon" />
-
         <EditText
             android:id="@+id/txtCropID"
             android:layout_width="0dp"
@@ -87,7 +57,7 @@
             android:layout_marginEnd="116dp"
             android:layout_marginBottom="16dp"
             android:ems="10"
-            android:hint="Crop ID"
+            android:hint="@string/crop_id"
             android:inputType="textPersonName"
             android:textColor="#1B4A40"
             android:textColorHint="#1B4A40"
@@ -96,7 +66,8 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView" />
+            app:layout_constraintTop_toBottomOf="@+id/textView"
+            android:autofillHints="" />
 
         <Button
             android:id="@+id/btnUpdate"
@@ -105,7 +76,7 @@
             android:layout_marginTop="124dp"
             android:layout_marginBottom="24dp"
             android:background="#1B4A40"
-            android:text="Display"
+            android:text="@string/display"
             android:textColor="#FFFFFF"
             android:textSize="18sp"
             app:layout_constraintBottom_toBottomOf="parent"
