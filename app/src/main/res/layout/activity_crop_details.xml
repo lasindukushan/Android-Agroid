@@ -30,8 +30,8 @@
 
         <ImageView
             android:id="@+id/imgHome"
-            android:layout_width="40dp"
-            android:layout_height="0dp"
+            android:layout_width="34dp"
+            android:layout_height="32dp"
             android:layout_marginStart="420dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="17dp"
@@ -46,8 +46,8 @@
 
         <ImageView
             android:id="@+id/imgNav"
-            android:layout_width="40dp"
-            android:layout_height="0dp"
+            android:layout_width="31dp"
+            android:layout_height="33dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="11dp"
             app:layout_constraintBottom_toBottomOf="@+id/toolbar"
@@ -62,8 +62,8 @@
             android:id="@+id/veglbl"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans_extrabold"
-            android:text="Vegetables"
+            android:fontFamily="@font/krona_one"
+            android:text="VEGETABLE"
             android:textColor="#1B4A40"
             android:textSize="30sp"
             app:layout_constraintBottom_toTopOf="@+id/layout1"
@@ -262,8 +262,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
-            android:fontFamily="@font/open_sans_extrabold"
-            android:text="Fruits"
+            android:fontFamily="@font/krona_one"
+            android:text="FRUITS"
             android:textColor="#1B4A40"
             android:textSize="30sp"
             app:layout_constraintBottom_toTopOf="@+id/layout4"
