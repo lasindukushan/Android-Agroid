@@ -11,6 +11,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 import com.google.android.material.navigation.NavigationView;
 
@@ -58,7 +59,7 @@ public class Dashboard extends AppCompatActivity implements NavigationView.OnNav
             public void onClick(View view) {
                 Intent i = new Intent(Dashboard.this,Plantshedule_u.class);
                 startActivity(i);
-
+                Toast.makeText(Dashboard.this, "Please wait.Page is loading....", Toast.LENGTH_SHORT).show();
             }
 
         });
