@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class Dashboard extends AppCompatActivity {
 
@@ -23,6 +24,7 @@ public class Dashboard extends AppCompatActivity {
             public void onClick(View view) {
                 Intent i = new Intent(Dashboard.this,Plantshedule_u.class);
                 startActivity(i);
+                Toast.makeText(Dashboard.this, "Please wait.Page is loading....", Toast.LENGTH_SHORT).show();
             }
         });
 

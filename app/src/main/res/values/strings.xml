@@ -124,5 +124,11 @@
     <string name="title">PLANTING SHEDULES</string>
     <string name="Plantingdate">Planting date</string>
     <string name="ccharvest">Pick harvesting date</string>
+    <string name="hd">Harvesting Date</string>
+    <string name="calculator">PESTICIDE CALCULATOR</string>
+    <string name="txt1">Enter active ingrediants of pesticides in %v/v or % w/w</string>
+    <string name="txt2">Enter it s recommended rate of application in kg/hectare</string>
+    <string name="txt3">Enter area of application in hectare</string>
+    <string name="totamt">Amount of pesticide</string>
 
 </resources>
