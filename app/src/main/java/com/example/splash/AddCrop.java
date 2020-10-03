@@ -53,11 +53,19 @@ public class AddCrop extends AppCompatActivity {
                 dbRef = FirebaseDatabase.getInstance().getReference().child("Crops");
                 //Exception Handeling
                 try {
-                    if (TextUtils.isEmpty(cropName.getText().toString())) {
+
+                    String stringCropName = cropName.getText().toString();
+                    String stringCropDes = cropDes.getText().toString();
+                    String stringCropId = cropID.getText().toString();
+
+                    //if (TextUtils.isEmpty(cropName.getText().toString())) {
+                    if (!crpHelper.validateCropName(stringCropName)) {
                         Toast.makeText(getApplicationContext(), "Please Enter the Crop Name...", Toast.LENGTH_SHORT).show();
-                    } else if (TextUtils.isEmpty(cropID.getText().toString())) {
+                    //} else if (TextUtils.isEmpty(cropID.getText().toString())) {
+                    } else if (!crpHelper.validateCropID(stringCropId)) {
                         Toast.makeText(getApplicationContext(), "Please Enter the Crop ID...", Toast.LENGTH_SHORT).show();
-                    } else if (TextUtils.isEmpty(cropDes.getText().toString())) {
+                   // } else if (TextUtils.isEmpty(cropDes.getText().toString())) {
+                    } else if (!crpHelper.validateCropDescription(stringCropDes)) {
                         Toast.makeText(getApplicationContext(), "Please Enter the Crop Description...", Toast.LENGTH_SHORT).show();
                     } else {
                         crpHelper.setCrpName(cropName.getText().toString().trim());

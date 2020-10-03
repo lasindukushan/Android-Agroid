@@ -33,4 +33,34 @@ public class CropHelper {
         this.crpDes = crpDes;
     }
 
+    public Boolean validateCropName(String cropName){
+
+        if( cropName.matches("")){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+
+    public Boolean validateCropDescription(String cropName){
+
+        if( cropName.matches("")){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+
+    public Boolean validateCropID(String cropID){
+
+        if( cropID.matches("")){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+
 }

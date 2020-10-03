@@ -22,7 +22,6 @@ public class DisplayCropToAdmin extends AppCompatActivity {
     Button myDisplay;
     EditText cropID_enteredByAdmin;
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,6 +60,7 @@ public class DisplayCropToAdmin extends AppCompatActivity {
 
                         }else{
                             Toast.makeText(getApplicationContext() , "ID doesn't Exist..." , Toast.LENGTH_SHORT).show();
+
                         }
                     }
 
