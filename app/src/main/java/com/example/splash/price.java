@@ -36,7 +36,7 @@ public class price extends AppCompatActivity implements NavigationView.OnNavigat
         setContentView(R.layout.activity_price);
 
         stveg = new ArrayList<>();
-        stveg.add(new marketprice("carrot",(float)200,R.drawable.carr));
+        stveg.add(new marketprice("carrot",(float)200,R.drawable.coc));
         stveg.add(new marketprice("cabbage",(float)100,R.drawable.cab));
         stveg.add(new marketprice("Bell Pepper",(float)450,R.drawable.bel));
         stveg.add(new marketprice("Garlic",(float)120,R.drawable.garl));

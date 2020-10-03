@@ -9,8 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+
         <activity android:name=".PesticideCal"></activity>
         <activity android:name=".FindDay" />
+        <activity android:name=".UpdateDeleteCrops"/>
+        <activity android:name=".DisplayCropToAdmin" />
+        <activity android:name=".AddCrop" />
+        <activity android:name=".IndividualCrop" />
+        <activity android:name=".CropDetails" />
         <activity android:name=".Plantshedule_u" />
         <activity android:name=".Dashboard" />
         <activity android:name=".DoChanges" />
