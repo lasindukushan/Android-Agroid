@@ -138,4 +138,38 @@
     <string name="crop_name">Crop Name :</string>
     <string name="change_crop_details">Change Crop Details</string>
 
+    //Dieses
+    <string name="t1"><b>DISEASES</b></string>
+    //admin
+    <string name="t2"><b>ADD</b></string>
+    <string name="t3"><b>UPDATE</b></string>
+    <string name="t4"><b>DELETE</b></string>
+    <string name="t5"><b>ADD DISEASES</b></string>
+    <string name="t13">add</string>
+    <string name="t6">Disease Name</string>
+    <string name="t7">What cause it?</string>
+    <string name="t8">What it look like?</string>
+    <string name="t9">What you can do?</string>
+    <string name="t10">UPDATE DETAILS</string>
+    <string name="t11">Disease Name</string>
+    <string name="t12">DELETE DISEASE</string>//end admin
+    <string name="t15">All Disease Names</string>
+    <string name="Dashboardcard1">Crops</string>//dieases home
+    <string name="Dashboardcard2">Planting Schedule</string>
+    <string name="Dashboardcard3">Diseases and Prevents</string>
+    <string name="logo_name" />
+    <string name="search_text"> search</string>
+    <string name="disease_text">Common disease</string>
+    <string name="dec1"> Bacterial Spot</string>
+    <string name="q1frag1"> what cause it</string>
+    <string name="ans1frag1"> Warm,Wet Environment</string>
+    <string name="q2frag1"> what it look like.</string>
+    <string name="ans2frag1">Small,Dark,Raised Spots</string>
+    <string name="q3frag1"> what you can do?</string>
+    <string name="ans3frag1">Destroy infected plants and apply afungiside</string>
+    <string name="card1Description">Bacterial Spot</string>
+    <string name="card2Description">Bacterial Blight</string>
+    <string name="card3Description">Ralstoniya Solanacearum</string>
+    <string name="t16">Addmin</string>
+
 </resources>
