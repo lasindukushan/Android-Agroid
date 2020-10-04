@@ -6,6 +6,7 @@
     <string name="signin">Sign In to Continue</string>
     <string name="email">Email</string>
     <string name="pwd">Password</string>
+    <string name="pwd2">Password(Must Contain letters,character )</string>
     <string name="login">Login</string>
     <string name="new_user">New User? SIGN UP</string>
     <string name="lets">Lets get Start to Planting</string>
@@ -171,5 +172,6 @@
     <string name="card2Description">Bacterial Blight</string>
     <string name="card3Description">Ralstoniya Solanacearum</string>
     <string name="t16">Addmin</string>
+    <string name="signupsuc">SignUp Successful.Login to Continue</string>
 
 </resources>

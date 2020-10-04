@@ -52,15 +52,17 @@
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/email"
+            android:id="@+id/log_email"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/email">
+            android:hint="@string/tp">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/logemail"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -73,20 +75,22 @@
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/pwd"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword" />
+                android:inputType="text" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/adminlogin"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"
             android:background="#1B4A40"
+            android:onClick="loginUser"
             android:text="@string/login"
-            android:id="@+id/adminlogin"
             android:textAlignment="center"
             android:textColor="#fff" />
 
@@ -109,7 +113,8 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
             android:backgroundTint="@color/cardview_shadow_end_color"
-            app:srcCompat="?android:attr/textSelectHandleLeft" />
+            app:srcCompat="?android:attr/textSelectHandleLeft"
+            android:contentDescription="@string/todo" />
 
 
 

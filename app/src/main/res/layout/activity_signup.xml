@@ -50,28 +50,29 @@
             >
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/reg_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:inputType="text"
                 android:textSize="12sp"
-                android:textStyle="bold"
-                android:inputType="text"/>
+                android:textStyle="bold" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/email"
+            android:id="@+id/log_email"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/email_address">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/reg_username"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textStyle="bold"
                 android:inputType="text"
-                />
+                android:textSize="12sp"
+                android:textStyle="bold" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -80,13 +81,14 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/pwd"
+            android:hint="@string/pwd2"
             app:passwordToggleEnabled="true">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/reg_password"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:inputType="textPassword"
+                android:inputType="text"
                 android:textAlignment="viewStart"
                 android:textSize="12sp"
                 android:textStyle="bold" />
@@ -101,12 +103,12 @@
             app:counterMaxLength="10">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/reg_phoneNo"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textSize="12sp"
-                android:textStyle="bold"
                 android:inputType="number"
-                />
+                android:textSize="12sp"
+                android:textStyle="bold" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
@@ -115,9 +117,10 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/district">
+            android:hint="@string/username">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/reg_district"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:inputType="text"
@@ -127,11 +130,13 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/reg_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="5dp"
             android:background="#1B4A40"
+            android:onClick="registerUser"
             android:text="@string/signup"
             android:textAlignment="center"
             android:textColor="#fff"
