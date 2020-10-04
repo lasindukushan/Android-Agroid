@@ -63,4 +63,14 @@ public class CropHelper {
 
     }
 
+    public Boolean expectIntegerCropID(int id){
+        if(id > 0 ){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
+
+
 }
