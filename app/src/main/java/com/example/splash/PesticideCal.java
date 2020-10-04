@@ -14,6 +14,42 @@ public class PesticideCal extends AppCompatActivity {
     Button btndone;
     TextView textView;
 
+    public boolean isvalidInput1(String input1){
+        if(input1.matches("[0-9][0-9]")){
+            return true;
+        }
+        else
+            return false;
+    }
+
+    public Boolean isValidinput2(){
+        String i2 = et2.getText().toString();
+
+        if(i2.isEmpty()){
+            et2.setError("Field Cannot be empty");
+            return false;
+        }
+        else{
+            et2.setError(null);
+            return true;
+        }
+    }
+
+    public Boolean isValidinput3(){
+        String i3 = et3.getText().toString();
+
+        if(i3.isEmpty()){
+            et3.setError("Field Cannot be empty");
+            return false;
+        }
+        else{
+            et3.setError(null);
+            return true;
+        }
+    }
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
