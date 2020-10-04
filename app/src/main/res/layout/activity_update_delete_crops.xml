@@ -63,7 +63,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="55dp"
             android:layout_marginBottom="32dp"
-            android:paddingStart="30dp"
+            android:paddingStart="10dp"
             android:text="Crop ID             :"
             android:textColor="#1B4A40"
             android:textSize="18sp"
@@ -129,7 +129,7 @@
 
         <EditText
             android:id="@+id/txtCropid"
-            android:layout_width="273dp"
+            android:layout_width="0dp"
             android:layout_height="61dp"
             android:layout_marginTop="40dp"
             android:layout_marginBottom="8dp"

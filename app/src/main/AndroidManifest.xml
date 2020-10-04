@@ -21,7 +21,6 @@
         <activity android:name=".UpdateDeleteCrops" />
         <activity android:name=".PesticideCal"></activity>
         <activity android:name=".FindDay" />
-        <activity android:name=".UpdateDeleteCrops"/>
         <activity android:name=".DisplayCropToAdmin" />
         <activity android:name=".AddCrop" />
         <activity android:name=".IndividualCrop" />
