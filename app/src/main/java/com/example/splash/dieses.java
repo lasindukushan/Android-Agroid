@@ -12,8 +12,14 @@ import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 import com.google.android.material.navigation.NavigationView;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 
 public class dieses extends AppCompatActivity implements NavigationView.OnNavigationItemSelectedListener {
 
@@ -26,6 +32,7 @@ public class dieses extends AppCompatActivity implements NavigationView.OnNaviga
 
 
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -34,14 +41,6 @@ public class dieses extends AppCompatActivity implements NavigationView.OnNaviga
 
         menuIcon = findViewById(R.id.menuIcon);
 
-
-//           Button btnh = findViewById(R.id.btn_hom1);
-//            btnh.setOnClickListener(new View.OnClickListener() {
-//            public void onClick(View v) {
-//                Intent intent = new Intent(getApplicationContext(),Dashboard.class);
-//                startActivity(intent);
-//            }
-//        });
 
 
         Button btnhdi1 = findViewById(R.id.btn_h1xx);
@@ -56,6 +55,28 @@ public class dieses extends AppCompatActivity implements NavigationView.OnNaviga
         btnhdi2.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),card2details.class);
+                startActivity(intent);
+            }
+        });
+
+        Button btnhdi3 = findViewById(R.id.btn_h3xx);
+        btnhdi3.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),card3details.class);
+                startActivity(intent);
+            }
+        });
+        Button btnhdi4 = findViewById(R.id.btn_h4xx);
+        btnhdi4.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),card4details.class);
+                startActivity(intent);
+            }
+        });
+        Button btnhdi5 = findViewById(R.id.btn_h5xx);
+        btnhdi5.setOnClickListener(new View.OnClickListener() {
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(),card5details.class);
                 startActivity(intent);
             }
         });

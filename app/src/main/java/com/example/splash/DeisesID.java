@@ -40,6 +40,50 @@ public class DeisesID {
     public void setCan_do(String can_do) {
         Can_do = can_do;
     }
+
+
+
+
+    public Boolean validateName(String Name){
+
+        if( Name.matches("")){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+    public Boolean validateCause_it(String Cause_it){
+
+        if( Cause_it.matches("")){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+    public Boolean validateLook_like(String Look_like){
+
+        if( Look_like.matches("")){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+    public Boolean  validateCan_do(String  Can_do){
+
+        if(  Can_do.matches("")){
+            return false;
+        }else{
+            return true;
+        }
+
+    }
+
+
+
+
 }
 
 

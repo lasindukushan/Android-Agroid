@@ -42,6 +42,7 @@
     <string name="schedule">Planting Schedule</string>
     <string name="admin_home">Admin Home</string>
     <string name="datainsert">Data inserted Successfully</string>
+    <string name="dataupdate">Data Updated Successfully</string>
     <string name="name">Name</string>
     <string name="price">Price</string>
     <string name="your_earn">Your Earn</string>

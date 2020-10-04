@@ -23,6 +23,8 @@ public class add_deises extends AppCompatActivity {
     DatabaseReference dbRef;
     DeisesID dis;
 
+
+
     long maxid=0;
 
 
@@ -64,14 +66,24 @@ public class add_deises extends AppCompatActivity {
                 });
 
                 try {
-                    if (TextUtils.isEmpty(Name.getText().toString()))
-                        Toast.makeText(getApplicationContext(), "Empty Name", Toast.LENGTH_SHORT).show();
-                    else if (TextUtils.isEmpty(Cause_it.getText().toString()))
-                        Toast.makeText(getApplicationContext(), "Empty Cause it", Toast.LENGTH_SHORT).show();
-                    else if (TextUtils.isEmpty(Look_like.getText().toString()))
-                        Toast.makeText(getApplicationContext(), "Empty Look like", Toast.LENGTH_SHORT).show();
-                    else if (TextUtils.isEmpty(Can_do.getText().toString()))
-                        Toast.makeText(getApplicationContext(), "Empty Can do", Toast.LENGTH_SHORT).show();
+                    String stringName = Name.getText().toString();
+                    String stringCause_it = Cause_it.getText().toString();
+                    String stringLook_like = Look_like.getText().toString();
+                    String stringCan_do = Can_do.getText().toString();
+
+                    if (!dis.validateName(stringName)) {
+                        Toast.makeText(getApplicationContext(), "Empty Cause it", Toast.LENGTH_SHORT).show();}
+
+                    else if (!Name.getText().toString().matches("[a-z,A-Z]*"))
+                       Name.setError("Enter Only Characters");
+
+
+                   else if (!dis.validateCause_it(stringCause_it)) {
+                        Toast.makeText(getApplicationContext(), "Empty Cause it", Toast.LENGTH_SHORT).show();}
+                    else if (!dis.validateLook_like(stringLook_like)) {
+                        Toast.makeText(getApplicationContext(), "Empty Cause it", Toast.LENGTH_SHORT).show();}
+                    else if (!dis.validateCan_do(stringCan_do)) {
+                        Toast.makeText(getApplicationContext(), "Empty Cause it", Toast.LENGTH_SHORT).show();}
                     else {
                         dis.setName(Name.getText().toString().trim());
                         dis.setCause_it(Cause_it.getText().toString().trim());

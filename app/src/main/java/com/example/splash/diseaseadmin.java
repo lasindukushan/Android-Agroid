@@ -28,7 +28,7 @@ public class diseaseadmin extends AppCompatActivity {
 //                Intent intent = new Intent(getApplicationContext(),deletedieses.class);
 //                startActivity(intent);
 //            }
-//        });
+//        })  ;
 
 
         Button btnUpdate = findViewById(R.id.btn_update);
@@ -40,13 +40,13 @@ public class diseaseadmin extends AppCompatActivity {
             }
         });
 
-        Button btnhome = findViewById(R.id.btn_h1xx);
-        btnhome.setOnClickListener(new View.OnClickListener() {
-            public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(),dieses.class);
-                startActivity(intent);
-            }
-        });
+//        Button btnhome = findViewById(R.id.btn_h1xx);
+//        btnhome.setOnClickListener(new View.OnClickListener() {
+//            public void onClick(View v) {
+//                Intent intent = new Intent(getApplicationContext(),dieses.class);
+//                startActivity(intent);
+//            }
+//        });
 
     }
 }
