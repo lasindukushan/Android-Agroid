@@ -25,7 +25,38 @@ public class DoChanges extends AppCompatActivity {
     String plantid,plantName,desc,url;
     DatabaseReference reference;
 
-    private Boolean validateId(){
+    public Boolean validateId(String id){
+
+        if(id.matches("[0-9][0-9][0-9]")){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public Boolean validate2url(String url){
+
+        if(url.matches("[a-zA-Z]+.jpg")){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
+
+    public Boolean validate2Name(String name){
+
+        if(name.matches("[a-zA-Z]+")){
+            return true;
+        }
+        else{
+
+            return false;
+        }
+    }
+
+    private Boolean validat2Id(){
         String id = etID.getText().toString();
 
         if(id.isEmpty()){
@@ -39,9 +70,9 @@ public class DoChanges extends AppCompatActivity {
     }
 
     private Boolean validateurl(){
-        String id = eturl.getText().toString();
+        String url = eturl.getText().toString();
 
-        if(id.isEmpty()){
+        if(url.isEmpty()){
             eturl.setError("Field Cannot be empty");
             return false;
         }
@@ -105,9 +136,9 @@ public class DoChanges extends AppCompatActivity {
         add.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DatabaseReference dbref = FirebaseDatabase.getInstance().getReference("PlantingShedule");
+                reference = FirebaseDatabase.getInstance().getReference("PlantingShedule");
 
-                if(!validateName() | !validateId() | !validateDesc() | !validateurl()){
+                if(!validateName() | !validat2Id() | !validateDesc() | !validateurl()){
                     return;
                 }
 
@@ -118,7 +149,7 @@ public class DoChanges extends AppCompatActivity {
 
                 PlantingShedule plantingShedule = new PlantingShedule(id,name,desc,url);
 
-                dbref.child(id).setValue(plantingShedule);
+                reference.child(id).setValue(plantingShedule);
 
                 Toast.makeText(getApplicationContext(), "Inserted Successfully", Toast.LENGTH_SHORT).show();
             }

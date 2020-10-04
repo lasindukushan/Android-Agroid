@@ -15,24 +15,6 @@ import static org.junit.Assert.*;
  */
 public class ExampleUnitTest {
 
-    private PesticideCal pestiCal;
-
-    @Before
-    public void setUp(){
-        pestiCal = new PesticideCal();
-    }
-
-    @Test
-    public void check_Result1(){
-        double result = pestiCal.calculateResult(60,12,0.5);
-        assertEquals(10.0,result,0.001);
-    }
-
-    @Test
-    public void check_Result2(){
-        double result = pestiCal.calculateResult(50,10,2);
-        assertEquals(2.0,result,0.001);
-    }
 
 
     @Test
