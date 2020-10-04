@@ -62,7 +62,7 @@ public class AddCrop extends AppCompatActivity {
                     if (!crpHelper.validateCropName(stringCropName)) {
                         Toast.makeText(getApplicationContext(), "Please Enter the Crop Name...", Toast.LENGTH_SHORT).show();
                     //} else if (TextUtils.isEmpty(cropID.getText().toString())) {
-                    } else if (!crpHelper.validateCropID(stringCropId)) {
+                    } else if (!crpHelper.validateCropID(stringCropId) || !crpHelper.expectIntegerCropID(Integer.parseInt(stringCropId))) {
                         Toast.makeText(getApplicationContext(), "Please Enter the Crop ID...", Toast.LENGTH_SHORT).show();
                    // } else if (TextUtils.isEmpty(cropDes.getText().toString())) {
                     } else if (!crpHelper.validateCropDescription(stringCropDes)) {
@@ -78,7 +78,7 @@ public class AddCrop extends AppCompatActivity {
                         clearConsols();
                     }
                 }catch(NumberFormatException e){
-                    Toast.makeText(getApplicationContext() , "Invalid contact number" , Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext() , "Invalid" , Toast.LENGTH_SHORT).show();
                 }
             }
         });

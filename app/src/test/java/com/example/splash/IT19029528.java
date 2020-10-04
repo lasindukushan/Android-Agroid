@@ -49,6 +49,18 @@ public class IT19029528 {
         assertEquals(true , result);
     }
 
+    @Test
+    public void expectIntegerCropIDTestTrue(){
+        boolean result = helperClass.expectIntegerCropID(2);
+        assertEquals(true , result);
+    }
+
+    @Test
+    public void expectIntegerCropIDTestFalse(){
+        boolean result = helperClass.expectIntegerCropID(-2);
+        assertEquals(false , result);
+    }
+
 
 
 }
