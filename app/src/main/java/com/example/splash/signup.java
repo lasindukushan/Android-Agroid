@@ -137,12 +137,13 @@ public class signup extends AppCompatActivity {
         private Boolean validatePhoneno () {
 
             String val = regPhoneNo.getEditableText().toString();
+            String MobilePattern = "[0-9]{10}";
 
             if (val.isEmpty()) {
                 regPhoneNo.setError("Field Cannot be Empty");
                 return false;
-            } else if (val.length() == 11) {
-                regPhoneNo.setError("Phone Number is too Long");
+            } else if (!val.matches(MobilePattern)) {
+                regPhoneNo.setError("Invalid Phone Number");
                 return false;
             } else {
                 regPhoneNo.setError(null);
