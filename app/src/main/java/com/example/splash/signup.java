@@ -75,7 +75,7 @@ public class signup extends AppCompatActivity {
 
 
 
-        private Boolean validateName () {
+        public  Boolean validateName () {
 
             String val = regName.getEditableText().toString();
 
@@ -89,7 +89,7 @@ public class signup extends AppCompatActivity {
             }
         }
 
-        private Boolean validateUsername () {
+        public Boolean validateUsername () {
 
             String val = regUsername.getEditableText().toString();
             String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
@@ -108,7 +108,7 @@ public class signup extends AppCompatActivity {
             }
         }
 
-        private Boolean validatePassword () {
+        public Boolean validatePassword () {
 
             String val = regPassword.getEditableText().toString();
             String passwordVal =  "^" +
@@ -134,7 +134,7 @@ public class signup extends AppCompatActivity {
             }
         }
 
-        private Boolean validatePhoneno () {
+        public Boolean validatePhoneno () {
 
             String val = regPhoneNo.getEditableText().toString();
             String MobilePattern = "[0-9]{10}";
@@ -152,7 +152,7 @@ public class signup extends AppCompatActivity {
             }
         }
 
-        private Boolean validateDistrict () {
+        public Boolean validateDistrict () {
 
             String val = regDistrict.getEditableText().toString();
 

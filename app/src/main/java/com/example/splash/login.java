@@ -65,7 +65,7 @@ public class login extends AppCompatActivity {
     }
 
 
-    private Boolean validateUsername () {
+    public Boolean validateUsername () {
 
         String val = emails.getEditableText().toString();
 
@@ -81,7 +81,7 @@ public class login extends AppCompatActivity {
         }
     }
 
-    private Boolean validatePassword () {
+    public Boolean validatePassword () {
 
         String val = pass.getEditableText().toString();
 
