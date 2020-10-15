@@ -5,6 +5,7 @@ public class DeisesID {
     private  String Cause_it;
     private String Look_like;
     private String  Can_do;
+    private String ID;
 
     public DeisesID() {
     }
@@ -41,8 +42,13 @@ public class DeisesID {
         Can_do = can_do;
     }
 
+    public String getID() {
+        return ID;
+    }
 
-
+    public void setID(String ID) {
+        this.ID = ID;
+    }
 
     public Boolean validateName(String Name){
 

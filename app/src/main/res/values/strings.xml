@@ -156,6 +156,7 @@
     <string name="t11">Disease Name</string>
     <string name="t12">DELETE DISEASE</string>//end admin
     <string name="t15">All Disease Names</string>
+    <string name="t17">Disease ID</string>
     <string name="Dashboardcard1">Crops</string>//dieases home
     <string name="Dashboardcard2">Planting Schedule</string>
     <string name="Dashboardcard3">Diseases and Prevents</string>
@@ -172,6 +173,8 @@
     <string name="card1Description">Bacterial Spot</string>
     <string name="card2Description">Bacterial Blight</string>
     <string name="card3Description">Ralstoniya Solanacearum</string>
+    <string name="card4Description">Powdery mildews</string>
+    <string name="card5Description">Rusts</string>
     <string name="t16">Addmin</string>
     <string name="signupsuc">SignUp Successful.Login to Continue</string>
 

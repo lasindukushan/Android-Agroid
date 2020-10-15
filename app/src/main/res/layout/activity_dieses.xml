@@ -51,7 +51,6 @@
                 android:contentDescription="@string/todo" />
 
         </RelativeLayout> //Upper Icons
-
         <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -223,61 +222,61 @@
                 </LinearLayout>
 
 
-                <LinearLayout
+                <!--                <LinearLayout-->
 
-                    android:layout_width="382dp"
-                    android:layout_height="200dp"
-                    android:layout_marginLeft="80dp"
-                    android:layout_marginRight="-35dp"
-                    android:layout_marginBottom="50dp"
-                    android:background="@drawable/card_5"
+                <!--                    android:layout_width="382dp"-->
+                <!--                    android:layout_height="200dp"-->
+                <!--                    android:layout_marginLeft="80dp"-->
+                <!--                    android:layout_marginRight="-35dp"-->
+                <!--                    android:layout_marginBottom="50dp"-->
+                <!--                    android:background="@drawable/card_5"-->
 
-                    android:elevation="8dp"
-                    android:orientation="vertical">
+                <!--                    android:elevation="8dp"-->
+                <!--                    android:orientation="vertical">-->
 
-                    <RelativeLayout
-                        android:layout_width="60dp"
-                        android:layout_height="match_parent"
-                        android:layout_margin="10dp"
-                        android:layout_marginTop="50dp"
-                        android:layout_marginBottom="50dp"
-                        android:elevation="8dp">
+                <!--                    <RelativeLayout-->
+                <!--                        android:layout_width="60dp"-->
+                <!--                        android:layout_height="match_parent"-->
+                <!--                        android:layout_margin="10dp"-->
+                <!--                        android:layout_marginTop="50dp"-->
+                <!--                        android:layout_marginBottom="50dp"-->
+                <!--                        android:elevation="8dp">-->
 
-                        <ImageView
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_centerVertical="true"
-                            android:layout_marginTop="0dp"
-                            android:layout_marginBottom="0dp"
-                            android:src="@drawable/pq" />
-
-
-                    </RelativeLayout>
-
-                    <TextView
-                        android:id="@+id/cd3"
-                        android:layout_width="223dp"
-                        android:layout_height="67dp"
-                        android:layout_marginLeft="100dp"
-                        android:layout_marginTop="-150dp"
-
-                        android:layout_marginBottom="5dp"
-                        android:fontFamily="sans-serif-smallcaps"
-                        android:text="@string/card3Description"
-                        android:textAlignment="center"
-                        android:textColor="#FFFFFF"
-                        android:textSize="30sp" />
-
-                    <Button
-                        android:id="@+id/btn_h3"
-                        android:layout_width="50dp"
-                        android:layout_height="50dp"
-                        android:layout_marginLeft="270dp"
-                        android:layout_marginBottom="100dp"
-                        android:background="@drawable/pngwave" />
+                <!--                        <ImageView-->
+                <!--                            android:layout_width="match_parent"-->
+                <!--                            android:layout_height="wrap_content"-->
+                <!--                            android:layout_centerVertical="true"-->
+                <!--                            android:layout_marginTop="0dp"-->
+                <!--                            android:layout_marginBottom="0dp"-->
+                <!--                            android:src="@drawable/pq" />-->
 
 
-                </LinearLayout>
+                <!--                    </RelativeLayout>-->
+
+                <!--                    <TextView-->
+                <!--                        android:id="@+id/cd3"-->
+                <!--                        android:layout_width="223dp"-->
+                <!--                        android:layout_height="67dp"-->
+                <!--                        android:layout_marginLeft="100dp"-->
+                <!--                        android:layout_marginTop="-150dp"-->
+
+                <!--                        android:layout_marginBottom="5dp"-->
+                <!--                        android:fontFamily="sans-serif-smallcaps"-->
+                <!--                        android:text="@string/card3Description"-->
+                <!--                        android:textAlignment="center"-->
+                <!--                        android:textColor="#FFFFFF"-->
+                <!--                        android:textSize="30sp" />-->
+
+                <!--                    <Button-->
+                <!--                        android:id="@+id/btn_h3"-->
+                <!--                        android:layout_width="50dp"-->
+                <!--                        android:layout_height="50dp"-->
+                <!--                        android:layout_marginLeft="270dp"-->
+                <!--                        android:layout_marginBottom="100dp"-->
+                <!--                        android:background="@drawable/pngwave" />-->
+
+
+                <!--                </LinearLayout>-->
 
 
                 <LinearLayout
@@ -320,7 +319,7 @@
 
                         android:layout_marginBottom="5dp"
                         android:fontFamily="sans-serif-smallcaps"
-                        android:text="@string/card1Description"
+                        android:text="@string/card3Description"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
                         android:textSize="30sp" />
@@ -376,7 +375,7 @@
 
                         android:layout_marginBottom="5dp"
                         android:fontFamily="sans-serif-smallcaps"
-                        android:text="@string/card1Description"
+                        android:text="@string/card4Description"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
                         android:textSize="30sp" />
@@ -431,7 +430,7 @@
 
                         android:layout_marginBottom="5dp"
                         android:fontFamily="sans-serif-smallcaps"
-                        android:text=""
+                        android:text="@string/card5Description"
                         android:textAlignment="center"
                         android:textColor="#FFFFFF"
                         android:textSize="30sp" />

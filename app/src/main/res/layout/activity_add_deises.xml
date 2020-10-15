@@ -141,6 +141,7 @@
         android:layout_height="115dp"
         android:background="@drawable/button"
         android:text="@string/t2"
+        android:textColor="#FFFFFF"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
