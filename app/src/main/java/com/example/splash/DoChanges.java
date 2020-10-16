@@ -161,12 +161,12 @@ public class DoChanges extends AppCompatActivity {
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                DatabaseReference delRef = FirebaseDatabase.getInstance().getReference().child("PlantingShedule");
-                delRef.addListenerForSingleValueEvent(new ValueEventListener() {
+
+                reference.addListenerForSingleValueEvent(new ValueEventListener() {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         if(dataSnapshot.hasChild(plantid)){
-                            reference = FirebaseDatabase.getInstance().getReference("PlantingShedule");
+                            reference = FirebaseDatabase.getInstance().getReference("PlantingShedule").child(plantid);
                             reference.removeValue();
                             clearControls();
                             Toast.makeText(getApplicationContext(), "Data deleted Successfully", Toast.LENGTH_SHORT).show();
